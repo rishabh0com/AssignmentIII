@@ -7,5 +7,10 @@ let prime = (x) => {
     else return false;
 }
 
-let a = 23;
-if(prime(a)) console.log("Prime");
+
+//put input here
+let a = 13;
+let b = prime(a)
+if(b == true) console.log(a,"is a prime number");
+else console.log(a,"is not a prime number");
+console.log(a); // output
