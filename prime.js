@@ -7,6 +7,7 @@ let prime = (x) => {
     else return false;
 }
 
+
 //put input here
 let a = 13;
 let b = prime(a)
